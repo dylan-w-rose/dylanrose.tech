@@ -1,0 +1,274 @@
+#loadcover { 
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: black;
+  z-index: 10;
+  position: absolute;
+}
+
+body {
+  font-family: 'Segoe UI';
+  letter-spacing: 0.15em;
+  margin-top: 0px;
+  padding 0;
+  margin 0;
+}
+
+#header {
+  background-image: linear-gradient(to bottom, #4b4b4b, #292929);
+  background-color: darkgray;
+  color: white;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+#name {
+  color: white;
+  text-align: center;
+  position: relative;
+  font-size: 7.5vh;
+  letter-spacing: 0.1em;
+  z-index: 1;
+}
+
+#icon {
+  z-index: 1;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 30vh; 
+  height: 30vh;
+}
+
+#title {
+  position: relative;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size: 4.5vh;
+  letter-spacing: 0.45vh;
+  margin-bottom: 0px;
+  margin-top: 1vh;
+  z-index: 1;
+  top: 5vh;
+}
+
+.continue { 
+  display: block;
+  margin: auto;
+  z-index: 10;
+  position:relative;
+  width: 9vh;
+}
+
+.continue:hover {
+  cursor: pointer
+}
+
+#menu {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+  height: 8vh;
+  background-color: black;
+  opacity: 0;
+}
+
+.button {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  font-family: 'Segoe UI';
+  letter-spacing: 0.2vh;
+  font-size: 2.9vh;
+  color: white;
+  height: 8vh;
+  margin-top: 0pt;
+  margin-left: 0pt;
+  padding-left: 4.8vh;
+  padding-right: 4.8vh;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+
+.button:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+  cursor: pointer
+}
+
+.home {
+  left: 0px;
+}
+
+.about_icon {
+  position: fixed;
+  width: 3.1vh;
+  height: 2.6vh;
+  top: 2.7vh;
+  left: 21vh;
+}
+
+.contact_icon {
+  position: fixed;
+  width: 3.1vh;
+  height: 2.3vh;
+  top: 2.9vh;
+  left: 40.8vh;
+}
+
+.blog_icon {
+  position: fixed;
+  width: 5vh;
+  height:5vh;
+  top: 1vh;
+  right: 1vh;
+}
+
+.about {
+  left: 18.7vh;
+  padding-left: 6.2vh;
+  padding-right: 2.75vh;
+}
+
+.contact {
+  left: 38.2vh;
+  padding-left: 6.5vh;
+  padding-right: 2.8vh;
+}
+
+.blog {
+  right: 0;
+  padding-left: 2vh;
+}
+
+#subject {
+  padding 0;
+  margin 0;
+  right: 0;
+  left: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+#aboutme {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Segoe UI Semibold";
+  font-size: 4.6vh;
+  text-align: center;
+  z-index: 3;
+}
+
+#about_text {
+  margin-top: 7.8vh;
+  margin-left: 5vh;
+  font-family: "Segoe UI";
+  font-size: 3vh;
+  padding-right: 2vh;
+  top: 15.5vh;
+  position: static;
+  text-align: left;
+  z-index: 6;
+  letter-spacing: 0.3vh;
+  padding-left: 2vh;
+}
+
+#me_pic {
+  width: 50vh;
+  position: static;
+  z-index 5;
+  padding-left: 5vh;
+  margin-right: 5vh;
+  float: left;
+  shape-outside:circle(50%);
+}
+
+#contactme {
+  background-color: #292929;
+  font-family: "Segoe UI";
+  font-size: 5vh;
+  letter-spacing: 0.2vh;
+  color: white;
+  text-align: center;
+  z-index: 3;
+}
+
+#quote {
+  font-size: 3vh;
+  color: gray;
+}
+
+#fb {
+  font-family: "Segoe UI";
+  font-size: 3vh;
+  color: lightgray;
+  text-decoration:none;
+  float: left;
+  padding-top: 5vh;
+  padding-left: 5vh;
+}
+
+#fb_text{
+  padding-left: 3vh;
+  vertical-align: middle;
+}
+
+#fb_text:hover {
+  color: white;
+}
+
+#twitter {
+  font-family: "Segoe UI";
+  font-size: 3vh;
+  color: lightgray;
+  text-decoration:none;
+  float: left;
+  padding-top: 3vh;
+  padding-left: 5vh;
+  padding-bottom: 0;
+}
+
+#twitter_text{
+  padding-left: 3vh;
+  vertical-align: middle;
+}
+
+#twitter_text:hover {
+  color: white;
+}
+
+#email {
+  font-family: "Segoe UI";
+  font-size: 3vh;
+  color: lightgray;
+  text-decoration:none;
+  float: left;
+  padding-left: 5vh;
+}
+
+#email_text{
+  padding-left: 3vh;
+  vertical-align: middle;
+}
+
+#email_text:hover {
+  color: white;
+}
+
+.social_media_icon {
+  width: 6vh;
+  vertical-align: middle;
+}
