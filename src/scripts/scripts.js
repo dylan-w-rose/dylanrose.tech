@@ -8,6 +8,7 @@ $(document).ready(function () {
   $("#subject").css("top", window_height);
   $("#subject").height(window_height * 2);
   $("#aboutme").height(window_height);
+  $("#portfolio_div").height(window_height);
   $("#contactme").height(window_height);
   $("#footer").css("top", window_height * 3);
   
@@ -22,6 +23,7 @@ $(document).ready(function () {
     $("#subject").css("top", window_height);
     $("#subject").height(window_height * 2);
     $("#aboutme").height(window_height);
+    $("#portfolio_div").height(window_height);
     $("#contactme").height(window_height);
     $("#footer").css("top", window_height * 3);
     $(".continue").animate({ top: window_height -  thisHeight}, 0);
@@ -72,7 +74,14 @@ $(document).ready(function () {
         scrollTop: $("#aboutme").offset().top
     }, 1000);
   });
-  
+
+  /*JUMP TO PORTFOLIO*/
+  $("#portfolio, #menu_portfolio").click(function () {
+    $('html, body').animate({
+        scrollTop: $("#portfolio_div").offset().top
+    }, 1000);
+  });
+
   /*JUMP TO CONTACTME*/
   $("#contact, #menu_contact").click(function () {
     $('html, body').animate({
@@ -89,6 +98,15 @@ $(document).ready(function () {
     $(".about_icon").attr('src', 'src/img/about_white.png');
   });
   
+  /* Change Picture of portfolio when mouseover */
+  $( ".portfolio" ).mouseover(function() {
+    $(".portfolio_icon").attr('src', 'src/img/portfolio_black.png');
+  });
+  
+  $( ".portfolio" ).mouseout(function() {
+    $(".portfolio_icon").attr('src', 'src/img/portfolio_white.png');
+  });
+
   /* Change Picture of contact when mouseover */
   $( ".contact" ).mouseover(function() {
     $(".contact_icon").attr('src', 'src/img/contact_black.png');
