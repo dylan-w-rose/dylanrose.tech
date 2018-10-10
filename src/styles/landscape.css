@@ -12,8 +12,8 @@ body {
   font-family: 'Segoe UI';
   letter-spacing: 0.15em;
   margin-top: 0px;
-  padding 0;
-  margin 0;
+  padding: 0;
+  margin: 0;
 }
 
 #header {
@@ -120,12 +120,21 @@ body {
   left: 21vh;
 }
 
-.contact_icon {
+
+.portfolio_icon {
   position: fixed;
   width: 3.1vh;
   height: 2.3vh;
   top: 2.9vh;
   left: 40.8vh;
+}
+
+.contact_icon {
+  position: fixed;
+  width: 3.1vh;
+  height: 2.3vh;
+  top: 2.9vh;
+  left: 65.8vh;
 }
 
 .blog_icon {
@@ -142,11 +151,20 @@ body {
   padding-right: 2.75vh;
 }
 
-.contact {
+.portfolio {
   left: 38.2vh;
   padding-left: 6.5vh;
   padding-right: 2.8vh;
 }
+
+.contact {
+  left: 63.2vh;
+  padding-left: 6.5vh;
+  padding-right: 2.8vh;
+}
+
+
+
 
 .blog {
   right: 0;
@@ -154,8 +172,8 @@ body {
 }
 
 #subject {
-  padding 0;
-  margin 0;
+  padding: 0;
+  margin: 0;
   right: 0;
   left: 0;
   position: absolute;
@@ -189,7 +207,7 @@ body {
 #me_pic {
   width: 50vh;
   position: static;
-  z-index 5;
+  z-index: 5;
   padding-left: 5vh;
   margin-right: 5vh;
   float: left;
