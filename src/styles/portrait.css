@@ -1,0 +1,277 @@
+#loadcover { 
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: black;
+  z-index: 10;
+  position: absolute;
+}
+
+body {
+  font-family: 'Segoe UI';
+  letter-spacing: 0.15em;
+  margin-top: 0px;
+  padding 0;
+  margin 0;
+}
+
+#header {
+  background-image: linear-gradient(to bottom, #4b4b4b, #292929);
+  background-color: darkgray;
+  color: white;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+#name {
+  color: white;
+  text-align: center;
+  position: relative;
+  font-size: 7.5vw;
+  letter-spacing: 0.1em;
+  z-index: 1;
+}
+
+#icon {
+  z-index: 1;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 30vw; 
+  height: 30vw;
+}
+
+#title {
+  position: relative;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size: 4.5vw;
+  letter-spacing: 0.45vw;
+  margin-bottom: 0px;
+  margin-top: 1vw;
+  z-index: 1;
+  top: 5vw;
+}
+
+.continue { 
+  display: block;
+  margin: auto;
+  z-index: 10;
+  position:relative;
+  width: 9vw;
+  
+}
+
+.continue:hover {
+  cursor: pointer
+}
+
+#menu {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+  height: 8vw;
+  background-color: black;
+  opacity: 0;
+}
+
+.button {
+  position: fixed;
+  z-index: 2;
+  font-family: 'Segoe UI';
+  letter-spacing: 0.2vw;
+  font-size: 2.9vw;
+  color: white;
+  height: 8vw;
+  margin-top: 0pt;
+  margin-left: 0pt;
+  padding-left: 4.8vw;
+  padding-right: 4.8vw;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+
+.button:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+  cursor: pointer
+}
+
+.home {
+  left: 0px;
+}
+
+.about_icon {
+  position: fixed;
+  width: 3.1vw;
+  height: 2.6vw;
+  top: 2.7vw;
+  left: 21vw;
+}
+
+.contact_icon {
+  position: fixed;
+  width: 3.1vw;
+  height: 2.8vw;
+  top: 2.6vw;
+  left: 40.8vw;
+}
+
+.blog_icon {
+  position: fixed;
+  width: 5vw;
+  height:5vw;
+  top: 1vw;
+  right: 1vw;
+}
+
+.about {
+  left: 18.7vw;
+  padding-left: 6.2vw;
+  padding-right: 2.75vw;
+}
+
+.contact {
+  left: 38.2vw;
+  padding-left: 6.5vw;
+  padding-right: 2.8vw;
+}
+
+.blog {
+  right: 0;
+  padding-left: 2vw;
+}
+
+#subject {
+  padding 0;
+  margin 0;
+  right: 0;
+  left: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+#aboutme {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Segoe UI Semibold";
+  font-size: 4.6vw;
+  text-align: center;
+  z-index: 3;
+}
+
+#about_text {
+  margin-top: 7.8vw;
+  margin-left: 5vw;
+  font-family: "Segoe UI";
+  font-size: 3vw;
+  padding-right: 2vw;
+  top: 15.5vw;
+  position: static;
+  text-align: left;
+  z-index: 6;
+  letter-spacing: 0.3vw;
+  padding-left: 2vw;
+}
+
+#me_pic {
+  width: 35vw;
+  position: static;
+  z-index 5;
+  padding-left: 5vw;
+  margin-right: 5vw;
+  float: left;
+  shape-outside:circle(50%);
+}
+
+#contactme {
+  background-image: linear-gradient(to bottom, #4b4b4b, #292929);
+  background-color: darkgray;
+  font-family: "Segoe UI";
+  font-size: 4.6vw;
+  letter-spacing: 0.2vw;
+  color: white;
+  text-align: center;
+  z-index: 3;
+}
+
+#quote {
+  font-size: 3vw;
+  color: gray;
+}
+
+#fb {
+  font-family: "Segoe UI";
+  font-size: 3vw;
+  color: lightgray;
+  text-decoration:none;
+  float: left;
+  padding-top: 5vw;
+  padding-left: 5vw;
+}
+
+#fb_text{
+  padding-left: 3vw;
+  vertical-align: middle;
+}
+
+#fb_text:hover {
+  color: white;
+}
+
+#twitter {
+  font-family: "Segoe UI";
+  font-size: 3vw;
+  color: lightgray;
+  text-decoration:none;  
+  float: left;
+  padding-top: 3vw;
+  padding-left: 5vw;
+  padding-bottom: 0;
+}
+
+#twitter_text{
+  padding-left: 3vw;
+  vertical-align: middle;
+}
+
+#twitter_text:hover {
+  color: white;
+}
+
+#email {
+  font-family: "Segoe UI";
+  font-size: 3vw;
+  color: lightgray;
+  text-decoration:none;  
+  float: left;
+  padding-top: 1vw;
+  padding-left: 5vw;
+}
+
+#email_text{
+  padding-left: 3vw;
+  vertical-align: middle;
+}
+
+#email_text:hover {
+  color: white;
+}
+
+
+.social_media_icon {
+  width: 6vw;
+  vertical-align:middle
+}
