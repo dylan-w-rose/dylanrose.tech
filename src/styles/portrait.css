@@ -17,8 +17,10 @@ body {
 }
 
 #header {
-  background-image: linear-gradient(to bottom, #4b4b4b, #292929);
-  background-color: rgb(169, 169, 169);
+  /*background-image: linear-gradient(to bottom, #4b4b4b, #292929);*/
+  /*background-color: rgb(49, 49, 49);*/
+  background-image: url("../img/flower.jpg");
+  background-size: cover;
   color: white;
   text-align: center;
   height: 100%;
@@ -122,20 +124,29 @@ body {
 
 .portfolio_icon {
   position: fixed;
-  width: 3.1vh;
-  height: 2.3vh;
-  top: 2.9vh;
-  left: 40.8vh;
+  width: 3.1vw;
+  height: 2.3vw;
+  top: 2.9vw;
+  left: 40.8vw;
 }
 
 .contact_icon {
   position: fixed;
-  width: 3.1vh;
-  height: 2.3vh;
-  top: 2.9vh;
-  left: 65.8vh;
+  width: 3.1vw;
+  height: 2.3vw;
+  top: 2.9vw;
+  left: 40.8vw;
 }
 
+/*
+.contact_icon {
+  position: fixed;
+  width: 3.1vw;
+  height: 2.3vw;
+  top: 2.9vw;
+  left: 65.8vw;
+}
+*/
 
 .blog_icon {
   position: fixed;
@@ -146,22 +157,30 @@ body {
 }
 
 .about {
-  left: 18.7vw;
-  padding-left: 6.2vw;
-  padding-right: 2.75vw;
+  left: 18.5vw;
+  padding-left: 2.9vw;
+  padding-right: 3.5vw;
 }
 
 .portfolio {
-  left: 38.2vh;
-  padding-left: 6.5vh;
-  padding-right: 2.8vh;
+  left: 38.2vw;
+  padding-left: 6.5vw;
+  padding-right: 2.8vw;
 }
 
 .contact {
-  left: 63.2vh;
-  padding-left: 6.5vh;
-  padding-right: 2.8vh;
+  left: 35.5vw;
+  padding-left: 3.5vw;
+  padding-right: 3.4vw;
 }
+
+/*
+.contact {
+  left: 63.2vw;
+  padding-left: 6.5vw;
+  padding-right: 2.8vw;
+}
+*/
 .blog {
   right: 0;
   padding-left: 2vw;
@@ -211,8 +230,8 @@ body {
 }
 
 #contactme {
-  background-image: linear-gradient(to bottom, #4b4b4b, #292929);
-  background-color: darkgray;
+  /*background-image: linear-gradient(to bottom, #4b4b4b, #292929);*/
+  background-color: #292929;
   font-family: "Segoe UI";
   font-size: 4.6vw;
   letter-spacing: 0.2vw;
