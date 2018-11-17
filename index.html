@@ -18,10 +18,10 @@ TO-DO:
 <body>
   
   <!--Top Buttons-->
-  <button id="home" class="button home default">HOME</button>
-  <button id="about" class="button about default"><!--<img class="about_icon default" src="src/img/about_white.png" alt="about_icon">-->ABOUT</button>
+  <!--<button id="home" class="button home default">HOME</button>
+  <button id="about" class="button about default"><!--<img class="about_icon default" src="src/img/about_white.png" alt="about_icon">-ABOUT</button>
   <!--<button id="portfolio" class="button portfolio default"><img class="portfolio_icon default" src="src/img/portfolio_white.png" alt="portfolio_icon">PORTFOLIO</button>-->
-  <button id="contact" class="button contact default"><!--<img class="contact_icon default" src="src/img/contact_white.png" alt="contact_icon">-->CONTACT</button>
+  <!--<button id="contact" class="button contact default"><!--<img class="contact_icon default" src="src/img/contact_white.png" alt="contact_icon">-CONTACT</button>
   <!--<button id="blog" class="button blog default" title="Check out my blog!"><img class="blog_icon default" src="src/img/blog_white.png" alt="contact_icon"></button>-->
   <!--Menu Buttons-->
   <div id="menu">
@@ -173,18 +173,68 @@ TO-DO:
   <div id="subject">
     <!--About me-->
     <div id="aboutme">
-      <p id="aboutme_title"><br /><br />ABOUT ME</p>
       <img id="me_pic" src="src/img/me.png" alt="continue_icon">
 
-      <p id="about_text">
-        Motivated professional with eight years of valuable 
-        experience in software development. Determined 
-        individual with strong work ethic who possesses excellent
-        organizational and time management skills; engineering
-        enthusiast who is always looking to engage in a new 
-        project and further develop personal skills.
+      <style>
+      .maincontainer{
+        position: relative;
+        width: 250px;
+        height: 320px;
+        margin: 0 auto;
+      }
 
-      </p>
+      .thecard{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        transform-style: preserve-3d;
+        transition: all 0.5s ease;
+      }
+      .thecard:hover {
+        transform: scaleY(1.5);
+        transform: rotateY(180deg);
+      }
+
+      .thefront{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        background: rgb(61, 61, 61);
+        color: #333;
+        text-align: center;
+        font-size: 18px;
+        border-radius: 25px;
+      }
+
+      .theback{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        background: #525252;
+        color: #333;
+        transform: rotateY(180deg);
+        border-radius: 25px;
+      }
+      </style>
+      <div class="maincontainer">
+        <div class="thecard">
+          <div class="thefront">
+            <img id="bio-img" src="src/img/bio.png" width=200px height=200px style="">
+          </div>
+          <div class="theback"><p id="about_text">
+            Motivated professional with eight years of valuable 
+            experience in software development. Determined 
+            individual with strong work ethic who possesses excellent
+            organizational and time management skills; engineering
+            enthusiast who is always looking to engage in a new 
+            project and further develop personal skills.
+          </p></div>
+        </div>
+      </div>
+
+      
     </div>
 
     <!--Portfolio-->
